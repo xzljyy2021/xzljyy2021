@@ -3,3 +3,10 @@
 	margin: 0px;
 	padding: 0px;
 }
+#head
+{
+	text-align: center;
+	font-family: aixin;
+	font-size: 50px;
+	background-color: #00FFFF;
+}
