@@ -3,6 +3,10 @@
 	margin: 0px;
 	padding: 0px;
 }
+body
+{
+	overflow: hidden;
+}
 #head
 {
 	text-align: center;
