@@ -12,10 +12,11 @@
 <link rel="stylesheet" type="text/css" href="css/star.css"/>
 <link rel="stylesheet" type="text/css" href="./css/star_clone.css"/>
 <script src="js/jQuery3.5.1.js" type="text/javascript" charset="utf-8"></script>
-<body>
-	<audio src="./Music/For_River.mp3" autoplay="autoplay" loop="loop">
+<script src="js/time.js" type="text/javascript" charset="utf-8"></script>
+<body onload="get_time()">
+<!-- 	<audio src="./Music/For_River.mp3" autoplay="autoplay" loop="loop">
 		当前浏览器不支持audio
-	</audio>
+	</audio> -->
 	<div>	
 	<div class="star star1"></div>
 	<div class="star star2"></div>
@@ -117,7 +118,30 @@
 	<div class="star star98"></div>
 	<div class="star star99"></div>
 	</>
-	
 	<h1 id="head">Our world</h1>
+	<div id="gettime">
+		<p id="opo">故事开始已有：</p>
+		<p id="tian">1</p>
+		<p id="shi">1</p>
+		<p id="fen">1</p>
+		<p id="miao">1</p>
+	</div>
+	<div class="mid">
+		<a href="son_html/num1.html">
+		<div class="project">
+			Hall of memory
+		</div>
+		</a>
+		<a href="">
+		<div class="project">
+			Story
+		</div>
+		</a>
+		<a href="">
+		<div class="project">
+			New world
+		</div>
+		</a>
+	</div>
 </body>
 </html>
