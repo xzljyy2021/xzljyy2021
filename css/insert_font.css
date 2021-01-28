@@ -6,3 +6,11 @@
 	font-family: tong;
 	src: url('../font/tong.ttf');
 }
+@font-face {
+	font-family: qingwa;
+	src: url('../font/qingwa.ttf');
+}
+@font-face {
+	font-family: luoli;
+	src: url('../font/luoli.ttf');
+}
