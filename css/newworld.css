@@ -1,0 +1,42 @@
+body
+{
+	background: url(../img/temp1bg.jpg);
+	background-size: 100%;
+}
+.head
+{
+	font-size: 70px;
+	font-weight: 100;
+	margin: 20px 0 0 40px;
+	font-family: xx;
+	background-image:-webkit-linear-gradient(-90deg,#3af6ff,#ef72ff,#b28eff,#eda1ff);
+	-webkit-background-clip:text; 
+	-webkit-text-fill-color:transparent;
+}
+.biaoyu
+{
+	margin-left: 100px;
+	width: 650px;
+	height: 170px;
+	/* border: 2px solid #000000; */
+	float: left;
+	margin-top: 140px;
+	
+}
+.inpp
+{
+	width: 550px;
+	font-size: 60px;
+	font-family: tong;
+	background-image: -webkit-linear-gradient(-90deg,#47ff15,#57fffa,#ff574b,#ffff31);
+}
+.xiaotu
+{
+	width: 200px;
+	height: 200px;
+	float: left;
+	border: 1px solid #000000;
+	background: url(../img/son_1/keai.png);
+	background-size: 100%;
+	opacity: 0.5;
+}

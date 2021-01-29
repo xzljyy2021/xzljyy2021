@@ -11,6 +11,10 @@
 	src: url('../font/qingwa.ttf');
 }
 @font-face {
-	font-family: luoli;
-	src: url('../font/luoli.ttf');
+	font-family: xx;
+	src: url('../font/xx.ttf');
+}
+@font-face {
+	font-family: en;
+	src: url('../font/en.ttf');
 }

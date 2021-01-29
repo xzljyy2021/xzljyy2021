@@ -43,9 +43,61 @@ body
 {
 	width: 300px;
 	height: 200px;
-	background-color: #a5fff5;
+	/* background-color: #a5fff5; */
 	border-radius: 10px;
 	color: #000000;
+	box-shadow: 5px 5px 5px rgba(255,255,255,0.3);
+	transition: all 0.5s; 
+	
+}
+.project:hover
+{
+	width: 330px;
+	height: 220px;
+	box-shadow: 10px 10px 10px rgba(42,42,42,0.7);
+}
+.project:hover .mask
+{
+	width: 330px;
+	height: 220px;
+	background-color: rgba(42,42,42,0.5);
+}
+.project:hover .mask > h1
+{
+	opacity: 1;
+}
+.space
+{
+	background-image: url(../img/Space.jpg);
+	background-size: 100%;
+}
+.newwrold
+{
+	background-image: url(../img/newwrold.jpg);
+	background-size: 100%;
+}
+.story
+{
+	background-image: url(../img/dyht.jpg);
+	background-size: 100%;
+}
+.mask
+{
+	width: 300px;
+	height: 200px;
+	border-radius: 10px;
+	transition: all 0.5s;
+}
+.mask > h1
+{
+	font-size: 45px;
+	padding-top: 70px;
+	text-align: center;
+	font-family: en;
+	font-weight: 100;
+	color: #f9c644;
+	opacity: 0;
+	transition: all 1s;
 }
 #gettime
 {
