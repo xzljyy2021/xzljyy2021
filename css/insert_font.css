@@ -18,3 +18,7 @@
 	font-family: en;
 	src: url('../font/en.ttf');
 }
+@font-face {
+	font-family: hanbao;
+	src: url('../font/hanbao.ttf');
+}
